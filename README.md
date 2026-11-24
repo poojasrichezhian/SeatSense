@@ -127,7 +127,12 @@ Crowding multipliers are indicative values in line with the range reported in th
 literature (e.g. Wardman & Whelan, 2011, *Transport Reviews*) and can be changed in `seatsense/config.py`.
 
 ## Team
-_[Team name, members, contacts]_
+**Team name:** TRANX6PV
+
+- **Poojasri I S**, Chennai Institute of Technology · poojasriis.cse2025@citchennai.net
+- **Boomika I S**, Chennai Institute of Technology
+
+**Demo video:** https://drive.google.com/file/d/1ve88G7V8HwuwO6DpYsoukVL6OpLI__fj/view?usp=drivesdk
 
 ## License
 MIT
