@@ -1,0 +1,6 @@
+route,day_type,hour,expected,note
+101,weekday,9,crowded,Morning peak towards Nehru Place
+101,weekday,14,not crowded,Midday off-peak
+340,weekday,18,crowded,Evening peak
+764,weekday,9,not crowded,Low-demand route
+101,weekend,7,not crowded,Early weekend morning

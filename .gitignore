@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/raw/*
+!data/raw/PUT_DATA_HERE.md
+data/processed/
+data/processed_sample/
+data/sample/
+reports_sample/
+*.7z
+*.zip
+.pytest_cache/

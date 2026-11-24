@@ -1,0 +1,14 @@
+# Config for the SYNTHETIC demo dataset produced by scripts/make_sample_data.py
+data:
+  tickets_csv: data/sample/tickets.csv
+  gtfs_dir: data/sample/gtfs
+  processed_dir: data/processed_sample
+  reports_dir: reports_sample
+  spotchecks_csv: data/spotchecks.example.csv
+  truth_csv: data/sample/truth_loads.csv
+tickets:
+  holidays: []
+model:
+  slot_minutes: 60
+  scale: ridership
+  daily_ridership: 64000   # synthetic network only

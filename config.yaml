@@ -1,0 +1,38 @@
+data:
+  tickets_csv: data/raw/tickets.csv
+  gtfs_dir: data/raw/gtfs
+  processed_dir: data/processed
+  reports_dir: reports
+  spotchecks_csv: data/spotchecks.csv
+
+tickets:
+  columns:
+    datetime: created_at
+    route: route
+    board_stop: start_stop_name
+    alight_stop: end_stop_name
+    vehicle: vehicle_number
+    pax: passenger_count
+    ticket_type: ticket_type_id
+  dayfirst: false
+  datetime_format: ISO8601
+  service_day_start_hour: 3
+  holidays: ["2026-10-02", "2026-10-20"]
+  nrows: null
+
+model:
+  slot_minutes: 60
+  seats: 38
+  standing: 30
+  scale: ridership
+  daily_ridership: 4080000
+  auto_target_load_factor: 1.0
+  auto_quantile: 0.95
+  route_scale_csv: null
+  dispersion_r: 4.0
+  default_alight_stops: 6
+  default_headway_min: 15
+  min_obs: 3
+
+matching:
+  stop_threshold: 80
